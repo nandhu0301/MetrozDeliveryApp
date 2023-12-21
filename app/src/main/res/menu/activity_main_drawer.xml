@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/View_Profile_id"
+            android:title="My Profile"
+            android:icon="@drawable/ic_my_profile"/>
+        <item
+            android:id="@+id/checkin_checkout_id"
+            android:title="Daily CheckIn-CheckOut"
+            android:icon="@drawable/ic_checkinout"/>
+        <item
+            android:id="@+id/View_Orders_id"
+            android:title="My Assigned Orders"
+            android:icon="@drawable/ic_orders_final"/>
+        <item
+            android:id="@+id/attendanceHistory"
+            android:title="Attendance History"
+            android:icon="@drawable/ic_attendance"/>
+
+        <item
+            android:id="@+id/payments"
+            android:title="Payment History"
+            android:icon="@drawable/payment_histry_final"/>
+        <item
+            android:id="@+id/weeklypayments"
+            android:title="Weekly Payment Settlements"
+            android:icon="@drawable/ic_cashwallet_01"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+
+</menu>

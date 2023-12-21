@@ -1,0 +1,62 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimaryDark">@color/cyanbase</item>
+        <item name="colorAccent">@color/cyanbase</item>
+        <item name="fontFamily">@font/coustard</item>
+        <item name="fontWeight">1</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#000000</item>
+
+    </style>
+    <style name="withoutWindowBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cyanbase</item>
+        <item name="colorPrimaryDark">@color/cyanbase</item>
+        <item name="colorAccent">@color/cyanbase</item>
+        <item name="fontFamily">@font/coustard</item>
+        <item name="fontWeight">1</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/coustard</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentNavigation">@color/cyanbase</item>
+
+
+    </style>
+   <!-- <style name="navtheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#FBFBFB</item>
+    </style>-->
+    <style name="navtheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cyanbase</item>
+        <item name="colorPrimaryDark">@color/cyanbase</item>
+        <item name="colorAccent">@color/cyanbase</item>
+        <item name="fontFamily">@font/coustard</item>
+        <item name="fontWeight">1</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

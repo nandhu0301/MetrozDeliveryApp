@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/b_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:textColor="#FFFF"
+            android:layout_width="wrap_content"
+            android:text="Order details"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/orderid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Order Id"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/customerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Customer Name"
+
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/storeaddress"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Store address"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/deliveryAddress"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Deliver Address"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:focusable="false"
+                    android:enabled="false"
+                    android:id="@+id/totalDistance"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Distance"
+                    android:maxLength="6"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:focusable="false"
+                    android:enabled="false"
+                    android:id="@+id/totalDeliveryFee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Delivery fee"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/invisiblelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:inputType="textPersonName"
+                android:textColor="#E10E6BF1">
+
+                <EditText
+                    android:maxLength="6"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:id="@+id/otpeditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Get pin from customer after delivery"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cancelview"
+                android:background="@drawable/b_round"
+                android:backgroundTint="@color/cyanbase"
+                android:padding="5dp"
+android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:text="Close"
+                android:textColor="#FFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"
+                android:id="@+id/okview"
+                android:background="@drawable/b_round"
+                android:backgroundTint="@color/cyanbase"
+                android:text="Delivered"
+                android:textColor="#FFFF"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
